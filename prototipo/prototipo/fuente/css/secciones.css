@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.secciones{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.secciones div{
+	margin: 50px;
+}
+
+
+/*Titulo de las diferentes secciones*/
+.secciones h1{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+	text-align: center;
+}
+
+/*Estilo de las imagenes del producto*/
+.secciones img{
+	/* width: 300px;
+	height: 300px; */
+	border:5px solid black;
+	border-radius: 5px;
+}
+
+/*Banner publicitario*/
+.banner{
+	display: flex;
+	justify-content:center;
+}
+
+@media (min-width: 500px) and (max-width: 800px){
+	.secciones{
+		display: flex;
+		flex-direction: column;
+		margin-right: 100px;
+	}
+
+	.secciones{
+		margin-left: 90px;
+	}
+
+	.secciones div{
+		flex-direction: column;
+
+		margin: 20px 50px;
+	}
+
+	/*Titulo de las diferentes secciones*/
+	.secciones h1{
+		font-family: 'Cinzel Decorative', cursive;
+		color: black;
+		-webkit-text-stroke: 0.1px rgb(231, 179, 67);	
+	}
+	
+	/*Estilo de las imagenes del producto*/
+	.secciones img{
+		/* width: 500px;
+		height: 300px; */
+		border:5px solid black;
+		border-radius: 5px;
+		margin-right: 50%;
+	}
+  }
+
+
+@media (min-width:800px) and (max-width: 1199px){
+	.secciones{
+		display: flex;
+		flex-direction: column;
+		margin-right: 100px;
+	}
+
+	.secciones{
+		margin-left: 90px;
+	}
+
+	.secciones div{
+		flex-direction: column;
+
+		margin: 20px 50px;
+	}
+
+	/*Titulo de las diferentes secciones*/
+	.secciones h1{
+		font-family: 'Cinzel Decorative', cursive;
+		color: black;
+		-webkit-text-stroke: 0.1px rgb(231, 179, 67);	
+	}
+	
+	/*Estilo de las imagenes del producto*/
+	.secciones img{
+		/* width: 500px;
+		height: 300px; */
+		border:5px solid black;
+		border-radius: 5px;
+		margin-right: 50%;
+	}
+
+}
+
+
+
+
+
+

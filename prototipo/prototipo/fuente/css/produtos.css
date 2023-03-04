@@ -1,0 +1,43 @@
+/*Titulo de la pagina producto*/
+.titulo{
+	font-family: 'Cinzel Decorative', cursive;
+	color: black;
+	-webkit-text-stroke: 0.1px rgb(231, 179, 67);
+	margin-left: 15%;
+    padding: 10px;	
+    text-decoration: solid;
+}
+
+
+.productos{
+    display: flex;
+	flex-wrap: wrap;
+	flex-direction:row;
+  	align-items: center;
+  	justify-content: center;
+}
+
+/*Transicion del producto*/
+.elemento:hover {
+    transform: scale(1.1); 
+}
+
+.elemento{
+    margin: 20px;
+    justify-items: center;
+    transition: all 1s ;
+
+}
+
+.elemento img{
+    border:5px solid black;
+	border-radius: 5px;
+
+}
+
+/*Ruta del producto*/
+.ruta{
+    margin-left: 15.7%;
+    font-size: 20px;
+}
+

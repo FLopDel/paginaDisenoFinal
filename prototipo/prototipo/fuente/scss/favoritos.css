@@ -1,0 +1,81 @@
+.dataTable {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.dataTable tbody {
+  display: block;
+  width: auto;
+  position: relative;
+  overflow-x: auto;
+}
+.dataTable tbody tr {
+  display: table-cell;
+}
+.dataTable tbody tr td img {
+  width: 150px;
+  height: 150px;
+}
+.dataTable tbody td {
+  display: block;
+}
+.dataTable thead {
+  display: block;
+  float: left;
+}
+.dataTable thead tr {
+  display: block;
+}
+.dataTable th {
+  display: block;
+  padding: 0.625em;
+  line-height: 1.5em;
+  border-bottom: 1px dashed #ccc;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.14);
+  border-bottom: 1px dashed #aaa;
+}
+.dataTable td {
+  padding: 0.625em;
+  line-height: 1.5em;
+  border-bottom: 1px dashed #ccc;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.dataTable tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.07);
+}
+
+@media screen and (min-width: 50em) {
+  .dataTable {
+    display: table;
+  }
+  .dataTable thead {
+    display: table-header-group;
+    float: none;
+  }
+  .dataTable thead tr {
+    display: table-row;
+  }
+  .dataTable tbody {
+    display: table-row-group;
+  }
+  .dataTable tbody tr {
+    display: table-row;
+  }
+  .dataTable tbody td {
+    display: table-cell;
+  }
+  .dataTable th {
+    display: table-cell;
+    width: auto;
+  }
+  .dataTable td {
+    width: auto;
+  }
+}/*# sourceMappingURL=favoritos.css.map */
